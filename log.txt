@@ -1,0 +1,10 @@
+[Sat, 31 Aug 2019 14:34:59 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Sat, 31 Aug 2019 14:35:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_utils 200
+[Sat, 31 Aug 2019 14:35:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /dashboard.assets/css/styles-a9623008fc27e79da2388441deeacfab.css 404
+[Sat, 31 Aug 2019 14:35:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /dashboard.assets/js/bundle-34997e32896293a1fa5d71f79eb1b4f7.js 404
+[Sat, 31 Aug 2019 14:35:03 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /dashboard.assets/img/pouchdb-favicon.png 404
+[Sat, 31 Aug 2019 14:35:06 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /dashboard.assets/css/styles-a9623008fc27e79da2388441deeacfab.css 404
+[Sat, 31 Aug 2019 14:35:17 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /db 200
+[Sat, 31 Aug 2019 14:35:31 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /db/__all_docs 404
+[Sat, 31 Aug 2019 14:35:34 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /db/_all_docs 200
+[Sat, 31 Aug 2019 14:35:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /db/_all_docs?include_docs=true 200

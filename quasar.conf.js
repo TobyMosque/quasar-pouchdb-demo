@@ -96,6 +96,11 @@ module.exports = function (ctx) {
           }
         })
 
+        cfg.module.rules.push({
+          test: /\.worker\.js$/,
+          use: { loader: 'worker-loader' }
+        })
+
         if (!isServer) {
           const worker = new ServiceWorkerWebpackPlugin({
             entry: path.join(__dirname, 'src-pwa/pouchdb-service-worker.js'),

@@ -32,8 +32,6 @@ class Database {
       }
       // this.local = create(PouchDB, 'db', { adapter: 'worker' })
       await Notification.requestPermission()
-      let { people } = await this.local.rel.find('person', '016ce441-16c3-0085-efe3-c2d80721abbd')
-      console.log(people)
       await this.replicate({ source: this.remote, target: this.local })
       await this.replicate({ source: this.local, target: this.remote })
       await initialize()
